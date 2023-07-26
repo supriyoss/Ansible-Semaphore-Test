@@ -1,0 +1,8 @@
+---
+- name: shutdown module demo
+  hosts: ubuntumachines
+  become: true
+  tasks:
+    - name: shutdown host(s)
+      community.general.shutdown:
+      
