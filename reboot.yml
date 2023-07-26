@@ -1,6 +1,6 @@
 ---
 - name: reboot module demo
-  hosts: localhost
+  hosts: ubuntumachines
   become: true
   tasks:
     - name: reboot host(s)
